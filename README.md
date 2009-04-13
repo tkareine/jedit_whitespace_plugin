@@ -4,6 +4,13 @@ README
 My modifications of jEdit's
 [WhiteSpace plugin](http://plugins.jedit.org/plugins/?WhiteSpace).
 
+Currently, the only modification is the way how lines containing only
+whitespace characters are displayed: instead of displaying such lines as
+having leading whitespace, the lines are shown as having trailing
+whitespace. This is more intuitive than the original behavior; if trailing
+whitespace is configured to be shown, but leading whitespace is not,
+whitespace-only lines are emphasized.
+
 Installation
 ------------
 
